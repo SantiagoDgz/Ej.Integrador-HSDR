@@ -1,3 +1,88 @@
-strong{
-    color: #ffe928;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.inicio{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 25px;
+    padding: 25px;
+}
+
+#mapa iframe{
+    width: 100%;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.inicio div{
+    background-color: lightseagreen;
+    color: yellow;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#video-a iframe{
+    width: 100%;
+    height: 200px;
+    border: 3px solid black;
+}
+
+#marquesina{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid black;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.segunda, .tercero{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 25px;
+}
+
+.segunda div, .tercero div{
+    background-color: rgb(137, 0, 0);
+    padding: 10px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.segunda img, .tercero img{
+    width: 90%;
+    height: 90px;
+}
+
+hr{
+    border: 5px solid rgb(101, 0, 0);
+}
+
+form{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+h2{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
 }
