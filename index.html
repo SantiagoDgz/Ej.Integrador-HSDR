@@ -69,10 +69,26 @@
         <label for="nombre">Nombre:
             <input type="text" name="nombre" id="nombre">
         </label>
-<br>
-<br>
+        <br>
+        <br>
         <label for="correo">Correo:
             <input type="email" name="correo" id="correo">
+        </label>
+        </div>
+        <br>
+        <div>
+        <label for="marca">Marca:
+            <select name="marca" id="marca">
+                <option value="">Selecciona una marca</option>
+                <option value="honda">Honda (60,000.00 mxn)</option>
+                <option value="nissan">Nissan (50,000.00 mxn)</option>
+                <option value="toyota">Toyota (40,000.00 mxn)</option>
+                <option value="mazda">Mazda (65,000.00 mxn)</option>
+                <option value="hyundai">Hyundai (55,000.00 mxn)</option>
+                <option value="kia">Kia (45,000.00 mxn)</option>
+                <option value="mitsubishi">Mitsubishi (50,000.00 mxn)</option>
+                <option value="suzuki">Suzuki (35,000.00 mxn)</option>
+            </select>
         </label>
         </div>
 
@@ -86,11 +102,11 @@
             <label for="financiamiento1">Contado</label>
             <br>
             <input type="radio" name="financiamiento" id="financiamiento2" value="opcion2">
-            <label for="financiamiento2">Crédito</label>
+            <label for="financiamiento2">Crédito (10% extra)</label>
         </div>
 
         <hr>
-        <h2>Equipamiento</h2>
+        <h2>Equipamiento 5,000 cada una</h2>
         <hr>
 
         <div name="seleccion" id="seleccion">
@@ -124,11 +140,17 @@
                 <input type="checkbox" id="camara-frontal" name="camara-frontal">   
             </div>
         </div>
+        <hr>
+        <div id="boton">
+            <button type="submit" id="btn-cotizar" onclick="calcular()">Enviar cotización</button>
+        </div>
     </form>
     <hr>
     <div>
         <strong><p style="text-align: center; font-size: x-large;">Hector Santiago Dominguez Ramos 45846</p></strong>
     </div>
 
+
+    <script src="script.js"></script>
 </body>
 </html>
